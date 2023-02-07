@@ -1,26 +1,63 @@
 export const MenuItems = [
   {
-    title: 'Главная',
-    url: '/',
-    cName: 'nav-links',
-    icon: 'fa-sharp fa-solid fa-house-chimney',
+    title: 'Берёзовый хутор',
+    path: '/berezovi',
+    cName: 'dropdown-link',
   },
   {
-    title: 'О нас',
-    url: '/about',
-    cName: 'nav-links',
-    icon: '< fa-solid fa-address-card',
+    title: 'Новости',
+    path: '/news',
+    cName: 'dropdown-link',
   },
   {
-    title: 'Как нас найти',
-    url: '/map',
-    cName: 'nav-links',
-    icon: 'fa-solid fa-map',
+    title: 'Схема территории',
+    path: '/schema',
+    cName: 'dropdown-link',
   },
   {
-    title: 'Как с нами связаться',
-    url: '/info',
-    cName: 'nav-links',
-    icon: 'fa-solid fa-circle-info',
+    title: 'Сертификаты',
+    path: '/sertivicats',
+    cName: 'dropdown-link',
+  },
+];
+
+export const MenuItems1 = [
+  {
+    title: 'бани',
+    path: '/berezovi',
+    cName: 'dropdown-link',
+  },
+  {
+    title: 'музей самоваров',
+    path: '/news',
+    cName: 'dropdown-link',
+  },
+  {
+    title: 'Беседки',
+    path: '/schema',
+    cName: 'dropdown-link',
+  },
+  {
+    title: 'Развлечения',
+    path: '/sertivicats',
+    cName: 'dropdown-link',
+  },
+];
+
+export const MenuItems2 = [
+  {
+    title: 'Номерной фонд',
+    path: '/berezovi',
+    cName: 'dropdown-link',
+  },
+  {
+    title: 'Кемпинг',
+    path: '/news',
+    cName: 'dropdown-link',
+  },
+  {
+    title: 'Правила проживания',
+    path: '/schema',
+    cName: 'dropdown-link',
   },
 ];
