@@ -8,7 +8,7 @@ function Trip() {
       <p>Разнообразный выбор домов под ваши потребности</p>
       <div className="tripcard">
         <TripData image="kek.jpg" heading="Большой дом" />
-        <TripData image="MiddleHome.jpg" heading="Средний дом" />
+        <TripData image="middleHome.jpg" heading="Средний дом" />
         <TripData image="smallHome.jpg" heading="Малый дом" />
         <TripData image="module.jpg" heading="Модульный дом" />
       </div>
