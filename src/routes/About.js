@@ -10,7 +10,7 @@ function About() {
       <Hero
         cName="hero-mid"
         heroImg="./modalHome.jpg"
-        title="На этой странице вы можете подробнее узнать о нас"
+        title="Подробная информация"
         BtnClass="hide"
       />
       <AboutUs />

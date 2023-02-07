@@ -3,10 +3,19 @@
   text-align: start;
 }
 
+.phoneItems {
+  display: flex;
+  justify-content: space-between;
+}
+
 .about-container h1 {
   padding-bottom: 1rem;
 }
 
+.textContacts {
+  font-size: 1.5rem;
+  padding-top: 10px;
+}
 .about-container p {
   padding-bottom: 2rem;
 }
@@ -15,4 +24,88 @@
   .about-container {
     margin: 4rem 2rem;
   }
+}
+
+.textAboutinAbout {
+  font-size: 1.6rem;
+}
+
+.yanMap {
+  height: 80px;
+  width: 80px;
+}
+
+.liksStyle {
+  text-decoration: none;
+}
+
+.tel {
+  height: 35px;
+  width: 30px;
+  margin: 10px;
+}
+
+.textAbout {
+  font-size: 1.7rem;
+  width: 700px;
+}
+
+.telephone {
+  display: flex;
+  align-items: center;
+}
+
+.telephonesItems {
+  display: flex;
+  flex-direction: column;
+  padding-top: 35px;
+}
+
+.icons-connect {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
+
+.icons_in_connect {
+  display: flex;
+  padding: 10px;
+}
+
+.iconsFlex {
+  display: inline-flex;
+  width: 500px;
+}
+
+.number {
+  font-weight: 900;
+}
+
+.yandexMap {
+  color: #eee;
+  font-size: 12px;
+  position: absolute;
+  top: 0px;
+}
+
+.yandexMap2 {
+  color: #eee;
+  font-size: 12px;
+  position: absolute;
+  top: 14px;
+}
+
+.yandexMap0 {
+  position: relative;
+  overflow: hidden;
+  text-align: right;
+
+  display: inline;
+}
+.yandexMap3 {
+  position: relative;
+}
+
+.content {
+  display: flex;
 }

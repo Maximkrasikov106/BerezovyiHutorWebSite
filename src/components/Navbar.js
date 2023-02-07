@@ -10,7 +10,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarItems">
-        <h1 className="navbar-logo">Березовый Хутор</h1>
+        <h1 className="navbar-logo">Берёзовый Хутор</h1>
 
         <div className="menu-icons" onClick={this.handClick}>
           <i className={this.state.clicked ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'}></i>

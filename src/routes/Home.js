@@ -10,11 +10,11 @@ function Home() {
       <Hero
         cName="hero"
         heroImg="./kek.jpg"
-        title="УГРАДА РУЛЭЕТ"
-        text="там где пиво, там хорошо"
+        title="БЕРЁЗОВЫЙ ХУТОР"
+        text="отдых для всей семьи"
         url="/"
         BtnClass="show"
-        buttonText="ЗАКАЗАТЬ ШЛ.. нет ДОМ"
+        buttonText="ЗАБРОНИРОВАТЬ ДОМ"
       />
       <Midblock />
       <Trip />
